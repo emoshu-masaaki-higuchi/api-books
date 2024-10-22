@@ -18,7 +18,7 @@ type Book struct {
 
 // 書籍のデータ（仮データ）
 var books = []Book{
-	{BookID: 1, ISBN: "978-4-7741-9763-2", StorageLocation: "Shelf 1", LabelType: "Tepra", LabelSpec: "Tepra Spec 1", AttachmentLocationSpec: "Top Right", Notes: "First book"},
+	{BookID: 1, ISBN: "978-4-7741-9763-1", StorageLocation: "Shelf 1", LabelType: "Tepra", LabelSpec: "Tepra Spec 1", AttachmentLocationSpec: "Top Right", Notes: "First book"},
 	{BookID: 2, ISBN: "978-4-7741-9764-0", StorageLocation: "Shelf 2", LabelType: "Tepra", LabelSpec: "Tepra Spec 2", AttachmentLocationSpec: "Top Left", Notes: "Second book"},
 }
 
