@@ -18,8 +18,8 @@ type Book struct {
 
 // 書籍のデータ（仮データ）
 var books = []Book{
-	{BookID: 1, ISBN: "978-4-7741-9763-1", StorageLocation: "Shelf 1", LabelType: "Tepra", LabelSpec: "Tepra Spec 1", AttachmentLocationSpec: "Top Right", Notes: "First book"},
-	{BookID: 2, ISBN: "9784295008057", StorageLocation: "Shelf 2", LabelType: "Tepra", LabelSpec: "Tepra Spec 2", AttachmentLocationSpec: "Top Left", Notes: "Second book"},
+	{BookID: 1, ISBN: "978-4-7741-9763-1", StorageLocation: "裏表紙左下部", LabelType: "brother", LabelSpec: "12mm、ゴールド色、フォント：ImpactURW、サイズ：20", AttachmentLocationSpec: "オフィス", Notes: "EMoshUのスタンプは上部に押印する"},
+	{BookID: 2, ISBN: "9784295008057", StorageLocation: "裏表紙左下部", LabelType: "brother", LabelSpec: "12mm、ゴールド色、フォント：ImpactURW、サイズ：20", AttachmentLocationSpec: "オフィス", Notes: "EMoshUのスタンプは上部に押印する"},
 }
 
 // Vercelが呼び出すハンドラ関数
